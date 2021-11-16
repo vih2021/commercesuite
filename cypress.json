@@ -1,6 +1,6 @@
 {
     "env": {
-        "BASE_URL": ""
+        "BASE_URL": "https://701523.commercesuite.com.br"
     },
     "chromeWebSecurity": false,
     "video": false,
