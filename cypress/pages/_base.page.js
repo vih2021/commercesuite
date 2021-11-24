@@ -1,3 +1,5 @@
+
+
 export default class Base {
   static getElement(element, index = undefined) {
     let elem;
@@ -37,7 +39,7 @@ export default class Base {
   }
 
   static getElementText(element, index = undefined) {
-    return this.getElement(element, index).invoke('text');
+    return this.getElement(element, index).invoke('text')
   }
 
   static typeValue(element, value, force = false) {
@@ -61,8 +63,8 @@ export default class Base {
   }
 
   static clickOnElement(element, index = undefined, force = false) {
-    if (force === true) {
-      return this.getElement(element, index).click({ force: true });
+    if ( force === true) {
+      return this.getElement(element, index).click({ force: false });
     } else {
       return this.getElement(element, index).click();
     }
@@ -103,5 +105,30 @@ export default class Base {
   static getElementAndSelectOption(element, option) {
     return this.getElement(element).should('be.visible').select(option);
   }
-}
 
+  static validateElementText1(element, value, index = undefined) {
+    this.getElementText(element, index).then((text) => {
+      expect(text).to.contains(value);
+    });
+  }
+
+  static getElementText1(element, index = undefined) {
+    return this.getElement(element, index).invoke('text').then((text) => {
+      console.log(text);
+    });
+  }
+
+  // static verifyElementSURE(text, assertionError = false) {
+  //   if ( assertionError === false) {
+  //     return this.getElementText(CHECK.OPTIONS).should('include', text, { assertionError : false }) 
+  //   }
+  //   else{
+  //     ""
+  //   }
+  // }
+
+  static verifyElementSURE(element, text = undefined) {
+    return this.getElementText(element).then((elemen) =>{
+    })  
+ }
+}

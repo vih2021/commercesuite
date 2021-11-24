@@ -1,0 +1,14 @@
+{
+  "endereço": {
+    "cep": "76834-070",
+    "logradouro": "Rui Barbosa",
+    "complemento": "Fundos 5",
+    "numero": 1189,
+    "bairro": "São José",
+    "cidade": "Ananindeua",
+    "estado": "Pará",
+    "estadoSigla": "PA"
+  },
+  "rua": "Santa Tereza",
+  "cep": "60010120"
+}

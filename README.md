@@ -1,1 +1,26 @@
 # commercesuite
+
+Como iniciar:    (Cmd/VsCodeTerminal)
+.......................................................
+> npm install
+.......................................................
+
+Para executar os testes no terminal:
+.......................................................
+> npm run cy:run
+.......................................................
+
+Para executar os testes com o Browser do Cypress:
+.......................................................
+> npm run cy:open
+
+OBS: Ao abrir, os testes estarão na pasta -> (/integration)
+.......................................................
+
+Para a criação de um relatório html dos testes realizados:
+.......................................................
+> npm run cy:run
+> npm run report:generate
+> npm run report:merge
+
+OBS: Para visualização após execução dos comandos basta abrir local do arquivo html e executar...
