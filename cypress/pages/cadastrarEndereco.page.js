@@ -40,6 +40,7 @@ export default class CadastrarUsuario extends Base {
         super.typeValue(CADASTRO.INP_RUA_NUM, INF.endereço.numero)
         super.typeValue(CADASTRO.INP_COMPLEMENT, INF.endereço.complemento)
         super.typeValue(CADASTRO.INP_BAIRRO, INF.endereço.bairro)
+        cy.wait(3000)
         super.verifyIfElementIsVisible(CADASTRO.MSG_SUCESS)
         super.clickOnElement(CADASTRO.SAVE_ALTERACO)      
     }
@@ -53,7 +54,8 @@ export default class CadastrarUsuario extends Base {
         super.typeValue(CADASTRO.INP_RUA_NUM, NUM)
         super.typeValue(CADASTRO.INP_COMPLEMENT, COMP)
         super.typeValue(CADASTRO.INP_BAIRRO, BAIR)
-        super.clickOnElement(CADASTRO.SAVE_ALTERACO)  
+        super.clickOnElement(CADASTRO.SAVE_ALTERACO) 
+        cy.wait(3000) 
         super.verifyIfElementIsVisible(CADASTRO.MSG_ERRO)    
     }
 

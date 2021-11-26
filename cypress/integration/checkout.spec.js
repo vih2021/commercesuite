@@ -5,7 +5,7 @@ import LOGIN from "../pages/login.page"
 
 describe('Testes para Checkout, finalizar compra', () => {
 
-    it('tenta', () => {
+    it('Deve realizar o Checkout', () => {
         LOGIN.acessarSite()
         CHECKOUT.finalizarCompra()
     })   

@@ -1,0 +1,498 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 13,
+    "passes": 12,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-11-26T13:10:08.982Z",
+    "end": "2021-11-26T13:16:37.673Z",
+    "duration": 310486,
+    "testsRegistered": 13,
+    "passPercent": 92.3076923076923,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "cf8340d1-4ef3-4016-bc7b-069c531778df",
+      "title": "",
+      "fullFile": "cypress/integration/_cadastrarUsuario.spec.js",
+      "file": "cypress/integration/_cadastrarUsuario.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "42b6e971-b5dc-4467-ba1f-ac28ea1ebc6b",
+          "title": "Testes para cadastro de Usuario",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Realiza o cadastro de um novo usuário",
+              "fullTitle": "Testes para cadastro de Usuario Realiza o cadastro de um novo usuário",
+              "timedOut": null,
+              "duration": 29881,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_cadastrarUsuario.default.acessarSite();\n_cadastrarUsuario.default.cadastrarUsuario();",
+              "err": {},
+              "uuid": "7b3fb03d-bdf8-4ec4-a268-10282f5d6ac3",
+              "parentUUID": "42b6e971-b5dc-4467-ba1f-ac28ea1ebc6b",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Tenta realizar o cadastro de um novo usuário Inválido",
+              "fullTitle": "Testes para cadastro de Usuario Tenta realizar o cadastro de um novo usuário Inválido",
+              "timedOut": null,
+              "duration": 13118,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_cadastrarUsuario.default.acessarSite();\n_cadastrarUsuario.default.cadastrarUsuarioInvalido();",
+              "err": {},
+              "uuid": "1215b60d-15a8-424b-bf4c-4465c7cb0e25",
+              "parentUUID": "42b6e971-b5dc-4467-ba1f-ac28ea1ebc6b",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7b3fb03d-bdf8-4ec4-a268-10282f5d6ac3",
+            "1215b60d-15a8-424b-bf4c-4465c7cb0e25"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 42999,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "fcd51686-f4e1-4f5b-a497-31dc6ced4b88",
+      "title": "",
+      "fullFile": "cypress/integration/cadastrarEndereco.spec.js",
+      "file": "cypress/integration/cadastrarEndereco.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b5d94afc-8f69-435f-a862-3d9a31f2b32e",
+          "title": "Testes para cadastro de Endereço",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve tentar cadastrar um endereço inválido",
+              "fullTitle": "Testes para cadastro de Endereço Deve tentar cadastrar um endereço inválido",
+              "timedOut": null,
+              "duration": 23640,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_cadastrarEndereco.default.acessarSite();\n_cadastrarEndereco.default.cadastrarEnderecoInvalido();",
+              "err": {},
+              "uuid": "e5325082-648f-418e-bdc1-5683aa807084",
+              "parentUUID": "b5d94afc-8f69-435f-a862-3d9a31f2b32e",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Realiza o cadastro de um novo endereço",
+              "fullTitle": "Testes para cadastro de Endereço Realiza o cadastro de um novo endereço",
+              "timedOut": null,
+              "duration": 19438,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_cadastrarEndereco.default.acessarSite();\n_cadastrarEndereco.default.cadastrarEndereco();",
+              "err": {},
+              "uuid": "e50d4c12-4beb-4564-af4b-06cd962e980e",
+              "parentUUID": "b5d94afc-8f69-435f-a862-3d9a31f2b32e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e5325082-648f-418e-bdc1-5683aa807084",
+            "e50d4c12-4beb-4564-af4b-06cd962e980e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 43078,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "aa3e40e1-300f-403d-a896-f827d405974a",
+      "title": "",
+      "fullFile": "cypress/integration/carrinho.spec.js",
+      "file": "cypress/integration/carrinho.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+          "title": "Teste para Carrinho",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve verificar se os elementos existem na página",
+              "fullTitle": "Teste para Carrinho Deve verificar se os elementos existem na página",
+              "timedOut": null,
+              "duration": 33828,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_carrinho.default.acessarSite();\n_carrinho.default.verificarElementosPage();\n_carrinho.default.acessarSite();\n_carrinho.default.verificarElementos();",
+              "err": {},
+              "uuid": "cdcca48e-a859-4df4-8bcb-428da9f08e43",
+              "parentUUID": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve adicionar um produto ao carrinho",
+              "fullTitle": "Teste para Carrinho Deve adicionar um produto ao carrinho",
+              "timedOut": null,
+              "duration": 24548,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_carrinho.default.acessarSite();\n_carrinho.default.adicionarItem();",
+              "err": {},
+              "uuid": "d6100c54-d1fb-4cf8-866d-417516fd11c9",
+              "parentUUID": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve remover um item do carrinho no modal",
+              "fullTitle": "Teste para Carrinho Deve remover um item do carrinho no modal",
+              "timedOut": null,
+              "duration": 53444,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "_carrinho.default.acessarSite();\n_carrinho.default.removeItem();",
+              "err": {
+                "message": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.",
+                "estack": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:159581:81\n    at tryCatcher (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:13212:23)\n    at https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:8334:41\n    at tryCatcher (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:11325:18)\n    at _drainQueueStep (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:7919:12)\n    at _drainQueue (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:7912:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:7928:5)\n    at Async.drainQueues (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:7798:14)",
+                "diff": null
+              },
+              "uuid": "e1166a4e-17a0-4184-92cc-d00992cadb46",
+              "parentUUID": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve remover um item do carrinho na página",
+              "fullTitle": "Teste para Carrinho Deve remover um item do carrinho na página",
+              "timedOut": null,
+              "duration": 15512,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_carrinho.default.acessarSite();\n_carrinho.default.removeItemPage();",
+              "err": {},
+              "uuid": "e8be1c56-328b-482d-b668-4545e1a239b1",
+              "parentUUID": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve verificar os elementos da página do carrinho",
+              "fullTitle": "Teste para Carrinho Deve verificar os elementos da página do carrinho",
+              "timedOut": null,
+              "duration": 10842,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_carrinho.default.acessarSite();\n_carrinho.default.verificarElementosPage();",
+              "err": {},
+              "uuid": "b07e706a-2285-4cd7-be05-011cf7b47b4a",
+              "parentUUID": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cdcca48e-a859-4df4-8bcb-428da9f08e43",
+            "d6100c54-d1fb-4cf8-866d-417516fd11c9",
+            "e8be1c56-328b-482d-b668-4545e1a239b1",
+            "b07e706a-2285-4cd7-be05-011cf7b47b4a"
+          ],
+          "failures": [
+            "e1166a4e-17a0-4184-92cc-d00992cadb46"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 138174,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "1a3003f1-7769-4ded-8f8c-566fc00ba2b5",
+      "title": "",
+      "fullFile": "cypress/integration/checkout.spec.js",
+      "file": "cypress/integration/checkout.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "639247a0-52ee-4370-ab91-6050a25ccb50",
+          "title": "Testes para Checkout, finalizar compra",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve realizar o Checkout",
+              "fullTitle": "Testes para Checkout, finalizar compra Deve realizar o Checkout",
+              "timedOut": null,
+              "duration": 46643,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_login.default.acessarSite();\n_checkout.default.finalizarCompra();",
+              "err": {},
+              "uuid": "8249f8fc-8918-4ccf-9024-7e988b257974",
+              "parentUUID": "639247a0-52ee-4370-ab91-6050a25ccb50",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8249f8fc-8918-4ccf-9024-7e988b257974"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 46643,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    },
+    {
+      "uuid": "a2aa9995-29d8-449c-84b8-e0a6bb083c90",
+      "title": "",
+      "fullFile": "cypress/integration/login.spec.js",
+      "file": "cypress/integration/login.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "96eb69a2-9c36-4527-8304-6f90abad1dc2",
+          "title": "Testes para login",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Realiza o login",
+              "fullTitle": "Testes para login Realiza o login",
+              "timedOut": null,
+              "duration": 14698,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_login.default.acessarSite();\n_login.default.logar();",
+              "err": {},
+              "uuid": "65d74531-c9dd-40f6-ac8b-04d682c38b48",
+              "parentUUID": "96eb69a2-9c36-4527-8304-6f90abad1dc2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Realiza um login inválido",
+              "fullTitle": "Testes para login Realiza um login inválido",
+              "timedOut": null,
+              "duration": 10987,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_login.default.acessarSite();\n_login.default.loginInvalido();",
+              "err": {},
+              "uuid": "089f9886-d6f6-44ba-a015-851e663d6479",
+              "parentUUID": "96eb69a2-9c36-4527-8304-6f90abad1dc2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Verifica se os elementos existem na página",
+              "fullTitle": "Testes para login Verifica se os elementos existem na página",
+              "timedOut": null,
+              "duration": 13907,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_login.default.acessarSite();\n_login.default.logar();\n_login.default.verificarElementos();",
+              "err": {},
+              "uuid": "b7ad51f6-1454-4b3a-8d23-9c29bbd71752",
+              "parentUUID": "96eb69a2-9c36-4527-8304-6f90abad1dc2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "65d74531-c9dd-40f6-ac8b-04d682c38b48",
+            "089f9886-d6f6-44ba-a015-851e663d6479",
+            "b7ad51f6-1454-4b3a-8d23-9c29bbd71752"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 39592,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "yyyymmdd_HHMMss",
+        "reportTitles": "Relatorio",
+        "cdn": true,
+        "charts": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

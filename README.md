@@ -20,7 +20,7 @@ OBS: Ao abrir, os testes estarão na pasta -> (/integration)
 Para a criação de um relatório html dos testes realizados:
 .......................................................
 > npm run cy:run
-> npm run report:generate
 > npm run report:merge
+> npm run report:generate
 
 OBS: Para visualização após execução dos comandos basta abrir local do arquivo html e executar...

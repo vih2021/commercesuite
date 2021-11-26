@@ -22,9 +22,11 @@ export default class checkout extends Base {
         cy.readFile('cypress/fixtures/CADASTRO_FIXO.json').then(user =>{
                 
             super.clickOnElement(CARRINHO.BTN_ADD)
+            cy.wait(4000)
             super.clickOnElement(CARRINHO.BTN_BAG)
             cy.wait(4000)
             super.clickOnElement(CARRINHO.BTN_FC)
+            cy.wait(6000)
             super.clickOnElement(CHECK.CONTINUE)
             cy.log(5000)
             super.typeValue(CHECK.INP_EMAIL, ENV.email)
@@ -62,9 +64,9 @@ export default class checkout extends Base {
 
                 }
 
-                cy.wait(20000)
+                cy.wait(4000)
                 super.getElement(CHECK.ESCOLHA).contains(btn).click()
-                super.validarUrl('https://701523.commercesuite.com.br/checkout?session_id=lif7ib90rfhgnra37oj1vnnkt1&store_id=701523#principal')
+                super.validarUrl('https://701523.commercesuite.com.br/checkout?session_id')
             })            
         })
      }

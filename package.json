@@ -8,8 +8,8 @@
     "cy:run": "npx cypress run",
     "report:cleanup": "rm -fr cypress/report/",
     "test:e2e": "cypress run --headless --browser chrome --no-exit",
-    "report:generate": "marge cypress/report/output.json --reportDir ./ --inline",
-    "report:merge": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/output.json"
+    "report:merge": "mochawesome-merge cypress/report/mochawesome-report/*.json > cypress/report/output.json",
+    "report:generate": "marge cypress/report/output.json --reportDir ./ --inline"
   },
   "repository": {
     "type": "git",

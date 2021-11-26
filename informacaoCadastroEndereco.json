@@ -1,13 +1,13 @@
 {
   "endereço": {
-    "cep": "76834-070",
-    "logradouro": "Rui Barbosa",
-    "complemento": "Fundos 5",
-    "numero": 1189,
-    "bairro": "São José",
-    "cidade": "Ananindeua",
-    "estado": "Pará",
-    "estadoSigla": "PA"
+    "cep": "89509-123",
+    "logradouro": "Belo Horizonte",
+    "complemento": "Terreo 1",
+    "numero": 831,
+    "bairro": "Planalto",
+    "cidade": "Boa Vista",
+    "estado": "Roraima",
+    "estadoSigla": "RR"
   },
   "rua": "Santa Tereza",
   "cep": "60010120"

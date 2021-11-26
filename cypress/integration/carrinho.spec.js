@@ -1,6 +1,6 @@
 import CARRINHO from '../pages/carrinho.page'
 
-describe('Teste para Cariinho', () =>{
+describe('Teste para Carrinho', () =>{
     it('Deve verificar se os elementos existem na página', () =>{
         CARRINHO.acessarSite()
         CARRINHO.verificarElementosPage()

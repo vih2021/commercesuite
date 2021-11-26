@@ -1,0 +1,190 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 4,
+    "pending": 0,
+    "failures": 1,
+    "start": "2021-11-26T13:12:05.542Z",
+    "end": "2021-11-26T13:14:31.550Z",
+    "duration": 146008,
+    "testsRegistered": 5,
+    "passPercent": 80,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "aa3e40e1-300f-403d-a896-f827d405974a",
+      "title": "",
+      "fullFile": "cypress/integration/carrinho.spec.js",
+      "file": "cypress/integration/carrinho.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+          "title": "Teste para Carrinho",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve verificar se os elementos existem na página",
+              "fullTitle": "Teste para Carrinho Deve verificar se os elementos existem na página",
+              "timedOut": null,
+              "duration": 33828,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_carrinho.default.acessarSite();\n_carrinho.default.verificarElementosPage();\n_carrinho.default.acessarSite();\n_carrinho.default.verificarElementos();",
+              "err": {},
+              "uuid": "cdcca48e-a859-4df4-8bcb-428da9f08e43",
+              "parentUUID": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve adicionar um produto ao carrinho",
+              "fullTitle": "Teste para Carrinho Deve adicionar um produto ao carrinho",
+              "timedOut": null,
+              "duration": 24548,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_carrinho.default.acessarSite();\n_carrinho.default.adicionarItem();",
+              "err": {},
+              "uuid": "d6100c54-d1fb-4cf8-866d-417516fd11c9",
+              "parentUUID": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve remover um item do carrinho no modal",
+              "fullTitle": "Teste para Carrinho Deve remover um item do carrinho no modal",
+              "timedOut": null,
+              "duration": 53444,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "_carrinho.default.acessarSite();\n_carrinho.default.removeItem();",
+              "err": {
+                "message": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.",
+                "estack": "CypressError: `cy.screenshot()` timed out waiting `30000ms` to complete.\n    at https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:159581:81\n    at tryCatcher (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:13212:23)\n    at https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:8334:41\n    at tryCatcher (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:13212:23)\n    at Promise._settlePromiseFromHandler (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:11147:31)\n    at Promise._settlePromise (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:11204:18)\n    at Promise._settlePromise0 (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:11249:10)\n    at Promise._settlePromises (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:11325:18)\n    at _drainQueueStep (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:7919:12)\n    at _drainQueue (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:7912:9)\n    at Async.../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:7928:5)\n    at Async.drainQueues (https://701523.commercesuite.com.br/__cypress/runner/cypress_runner.js:7798:14)",
+                "diff": null
+              },
+              "uuid": "e1166a4e-17a0-4184-92cc-d00992cadb46",
+              "parentUUID": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve remover um item do carrinho na página",
+              "fullTitle": "Teste para Carrinho Deve remover um item do carrinho na página",
+              "timedOut": null,
+              "duration": 15512,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_carrinho.default.acessarSite();\n_carrinho.default.removeItemPage();",
+              "err": {},
+              "uuid": "e8be1c56-328b-482d-b668-4545e1a239b1",
+              "parentUUID": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Deve verificar os elementos da página do carrinho",
+              "fullTitle": "Teste para Carrinho Deve verificar os elementos da página do carrinho",
+              "timedOut": null,
+              "duration": 10842,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_carrinho.default.acessarSite();\n_carrinho.default.verificarElementosPage();",
+              "err": {},
+              "uuid": "b07e706a-2285-4cd7-be05-011cf7b47b4a",
+              "parentUUID": "84210417-ddf5-4c93-9a2e-ae1143b9a4d5",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cdcca48e-a859-4df4-8bcb-428da9f08e43",
+            "d6100c54-d1fb-4cf8-866d-417516fd11c9",
+            "e8be1c56-328b-482d-b668-4545e1a239b1",
+            "b07e706a-2285-4cd7-be05-011cf7b47b4a"
+          ],
+          "failures": [
+            "e1166a4e-17a0-4184-92cc-d00992cadb46"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 138174,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "yyyymmdd_HHMMss",
+        "reportTitles": "Relatorio",
+        "cdn": true,
+        "charts": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
