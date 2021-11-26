@@ -8,7 +8,7 @@ export const CADASTRO = {
     INP_BAIRRO    : 'input#address-neighborhood',
     SAVE_ALTERACO : 'button.app__button',
     URL           : 'https://701523.commercesuite.com.br/my-account/addresses',
-    MSG_SUCESS      : 'div.alert.alert-dismissible.alert-sucess',
+    MSG_SUCESS    : 'div.alert.alert-dismissible.alert-sucess',
     MSG_ERRO      : 'div.alert.alert-dismissible.alert-danger'
 
 }
