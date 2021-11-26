@@ -8,7 +8,7 @@ export const CARRINHO = {
     BTN_BAG   : 'div.cart-mini',
     BAG_LIST  : 'div.cart-content-list-item',
     BAG_PROD  : 'div#prod27',
-    //DEL_PROD: 'span#27.prod-delete',   //precisa de wait
+    DEL_PROD  : 'span#27.prod-delete',   //precisa de wait
     CLS_BAG   : 'span.btn-clear',
     TOTAL     : 'div.subtotal-price',
     FOOTER    : 'footer.cart-footer',

@@ -11,7 +11,6 @@ export default class Carrinho extends Base {
         super.clickOnElement(CARRINHO.BTN_ADD)
         super.clickOnElement(CARRINHO.BTN_BAG)
         super.verifyIfElementExists(CARRINHO.BAG_LIST)
-        //super.verifyIfElementExists(CARRINHO.DEL_PROD)
         super.verifyIfElementExists(CARRINHO.TOTAL)
         super.verifyIfElementExists(CARRINHO.FOOTER)
         super.verifyIfElementExists(CARRINHO.FINISH)

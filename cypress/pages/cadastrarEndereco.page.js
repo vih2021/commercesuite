@@ -1,7 +1,6 @@
 import Base from './_base.page'
 
 import Login from "../pages/login.page"
-//import { LOGIN } from './componentes/login.elements'
 import { CADASTRO } from './componentes/cadastrarEndereco.elements'
 import { fakerBr } from 'js-brasil'
 import Factory from '../dynamics/factory'
@@ -30,7 +29,7 @@ export default class CadastrarUsuario extends Base {
     }
 
     static cadastrarEndereco() {
-        //super.clickOnElement(LOGIN.MENU_ENDERECO)//AO CLICAR NO ELEMENTO ELE REDIRECIONA PARA O LOCAL ERRADO
+
         cy.writeFile('informacaoCadastroEndereco.json', {endereço:endereco, rua:rua, cep:cep})
         cy.visit(CADASTRO.URL)
         super.clickOnElement(CADASTRO.BTN_EDIT)
@@ -46,6 +45,7 @@ export default class CadastrarUsuario extends Base {
     }
 
     static cadastrarEnderecoInvalido() {
+
         cy.visit(CADASTRO.URL)
         super.clickOnElement(CADASTRO.BTN_EDIT)
         super.typeValue(CADASTRO.INP_ADRESS, ADD)
@@ -60,7 +60,7 @@ export default class CadastrarUsuario extends Base {
     }
 
     static cadastrarEndereco() {
-        //super.clickOnElement(LOGIN.MENU_ENDERECO)//AO CLICAR NO ELEMENTO ELE REDIRECIONA PARA O LOCAL ERRADO
+
         cy.writeFile('informacaoCadastroEndereco.json', {endereço:endereco, rua:rua, cep:cep})
         cy.visit(CADASTRO.URL)
         super.clickOnElement(CADASTRO.BTN_EDIT)
